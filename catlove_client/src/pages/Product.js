@@ -1,11 +1,12 @@
 import React from 'react';
 
-function hmepage() {
+function Product() {
   return (
     <div>
+      <div>Product im</div>
       <div></div>
     </div>
   );
 }
 
-export default hmepage;
+export default Product;

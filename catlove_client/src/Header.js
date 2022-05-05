@@ -2,6 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faBasketShopping } from '@fortawesome/free-solid-svg-icons';
 import { faUser, faBell } from '@fortawesome/free-regular-svg-icons';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
@@ -10,7 +11,10 @@ function Header() {
         Cat Shoppingmol
       </div>
       <div className="flex justify-center m-20 mt-20">
-        <div className="font-Patrick text-4xl mr-1.5">Cat Love</div>
+        <Link to="/">
+          <div className="font-Patrick text-4xl mr-1.5">Cat Love</div>
+        </Link>
+
         <div className="text-2xl flex justify-around w-[30%] basis-6/12 font-Patrick mt-1.5">
           <div>Shop</div>
           <div>Best</div>
