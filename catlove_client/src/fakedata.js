@@ -1,28 +1,53 @@
 const data = [
   {
-    img: '/data/goods/20/04/20/15153/1588064774766l0.jpg',
-    title: '[딱 100개만 이 가격] 헨더슨 심플리 더 베스트 낚시대 (색상임의)',
-    prace: '2500',
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
   },
   {
-    img: '/data/goods/20/04/20/15153/1588064774766l0.jpg',
-    title: '[딱 100개만 이 가격] 헨더슨 심플리 더 베스트 낚시대 (색상임의)',
-    prace: '2500',
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
   },
   {
-    img: '/data/goods/20/04/20/15153/1588064774766l0.jpg',
-    title: '[딱 100개만 이 가격] 헨더슨 심플리 더 베스트 낚시대 (색상임의)',
-    prace: '2500',
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
   },
   {
-    img: '/data/goods/20/04/20/15153/1588064774766l0.jpg',
-    title: '[딱 100개만 이 가격] 헨더슨 심플리 더 베스트 낚시대 (색상임의)',
-    prace: '2500',
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
   },
   {
-    img: '/data/goods/20/04/20/15153/1588064774766l0.jpg',
-    title: '[딱 100개만 이 가격] 헨더슨 심플리 더 베스트 낚시대 (색상임의)',
-    prace: '2500',
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
+  },
+  {
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
+  },
+  {
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
+  },
+  {
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
+  },
+  {
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
+  },
+  {
+    img: '//thumbnail8.coupangcdn.com/thumbnails/remote/230x230ex/image/retail/images/772489091917332-70b2d917-fd74-4720-b9b4-6a81e74b357c.jpg',
+    title: '세이펫 고양이 매쉬 해먹 침대, 베이지',
+    price: '29500',
   },
 ];
 
