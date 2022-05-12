@@ -3,18 +3,18 @@ import Header from './Header';
 import { Main, Product, Order, Board, BsetProducts } from './pages';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { NotFound } from './pages';
-import fakedata from './fakedata';
+import { data, review } from './fakedata';
 import PropTypes from 'prop-types';
 
 function App() {
   // const [product, setProduct] = useState(null);
   const [products, setProducts] = useState([]);
   const [bestlist, setBestlist] = useState([]);
-
+  const [reviews, setreviews] = useState([]);
   useEffect(() => {
-    const data = fakedata;
     setProducts(data);
     setBestlist(data);
+    setreviews(review);
   });
 
   return (
@@ -28,7 +28,7 @@ function App() {
             element={<Product products={products} />}
           ></Route>
           <Route path="/order" element={<Order />}></Route>
-          <Route path="/board" element={<Board />}></Route>
+          <Route path="/board" element={<Board reviews={reviews} />}></Route>
           <Route
             path="/bestProducts"
             element={<BsetProducts bestlist={bestlist} />}
