@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 function ProductEntry({ product }) {
-  const { img, title, price } = product;
+  const { id, img, title, price } = product;
 
   return (
     <li className="w-[20%] m-2">
-      <a href="123">
+      <Link to={`${id}`}>
         <img
           className="w-[100%] border-solid border border-black mb-2"
           src={img}
         />
-      </a>
+      </Link>
       <div>{title}</div>
       <div>{price}</div>
     </li>

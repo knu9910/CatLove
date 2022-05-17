@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
-import { Main, Product, Order, Board, BsetProducts } from './pages';
+import {
+  Main,
+  Product,
+  Order,
+  Board,
+  BsetProducts,
+  NotFound,
+  Detail,
+} from './pages';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { NotFound } from './pages';
 import { data, review } from './fakedata';
 import PropTypes from 'prop-types';
 
@@ -24,8 +31,12 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Main products={products} />}></Route>
           <Route
-            path="/product/*"
+            path="/product"
             element={<Product products={products} />}
+          ></Route>
+          <Route
+            path="/product/:id"
+            element={<Detail products={products} />}
           ></Route>
           <Route path="/order" element={<Order />}></Route>
           <Route path="/board" element={<Board reviews={reviews} />}></Route>
